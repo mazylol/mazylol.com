@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .navitem-container {
+    @apply px-2 mx-2 rounded-md hover:bg-blue-500 transition-all duration-150;
+  }
+
+  .navitem {
+    @apply text-2xl font-semibold text-center text-neutral-700 hover:text-neutral-900 transition-all duration-150 group-hover:text-white;
+  }
+}
+
+$size: 200px;
+
+$d: $size * 0.5;
+$ang: 0.7071;
+$a: $d * $ang;
+
+.base {
+  width: $size * 2;
+  height: $size * 2;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+
+.circ {
+  position: absolute;
+  width: $size;
+  height: $size;
+  border-radius: 100%;
+  border: 10px solid white;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.base .circ {
+  &:nth-child(1) {
+    transform: translate($d, 0);
+  }
+  &:nth-child(2) {
+    transform: translate(0, $d);
+  }
+  &:nth-child(3) {
+    transform: translate($d * -1, 0);
+  }
+  &:nth-child(4) {
+    transform: translate(0, $d * -1);
+  }
+  &:nth-child(5) {
+    transform: translate($a, $a);
+  }
+  &:nth-child(6) {
+    transform: translate($a, -$a);
+  }
+  &:nth-child(7) {
+    transform: translate(-$a, $a);
+  }
+  &:nth-child(8) {
+    transform: translate(-$a, -$a);
+  }
+}
+.base:nth-child(2) {
+  transform: rotate(0.1turn);
+}
+
+@for $i from 2 through 8 {
+  .base:nth-child(#{$i}) {
+    transform: rotate($i * 0.1turn);
+    animation: turn-#{$i} 6s ease-in-out infinite alternate;
+    animation-duration: 1.5s * $i;
+    @keyframes turn-#{$i} {
+      to {
+        transform: rotate($i * (1 / 8) * 1urn);
+      }
+      from {
+        transform: rotate(0);
+      }
+    }
+
+    .circ {
+      background: rgba(#000, 0.05);
+    }
+  }
+}

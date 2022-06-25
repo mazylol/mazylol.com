@@ -1,9 +1,13 @@
+import Animation from '../components/Animation';
+
 export default function Index() {
   return (
-    <div className="w-full">
-      <p className="text-center pt-8 text-5xl font-bold bg-gradient-to-r from-orange-300 to-red-700 bg-clip-text text-transparent">
-        Mazylol
+    <>
+      <p className="text-center pt-8 text-7xl font-extrabold text-neutral-700 pb-2">Mazylol</p>
+      <p className="text-3xl font-light text-center text-neutral-700 pb-12">
+        An <span className="font-bold">Un</span>professional idiot who likes to code sometimes.
       </p>
-    </div>
+      <Animation />
+    </>
   );
 }
