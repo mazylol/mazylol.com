@@ -10,6 +10,14 @@
   .navitem {
     @apply text-2xl font-semibold text-center text-neutral-700 hover:text-neutral-900 transition-all duration-150 group-hover:text-white;
   }
+
+  .stuff-container {
+    @apply bg-neutral-300 rounded-xl;
+  }
+
+  .stuff {
+    @apply text-3xl font-bold text-center text-neutral-700 p-5;
+  }
 }
 
 $size: 200px;
