@@ -77,7 +77,7 @@ $a: $d * $ang;
     animation-duration: 1.5s * $i;
     @keyframes turn-#{$i} {
       to {
-        transform: rotate($i * (1 / 8) * 1urn);
+        transform: rotate($i * calc(1 / 8) * 1urn);
       }
       from {
         transform: rotate(0);
