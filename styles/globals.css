@@ -1,16 +1,13 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+@layer components {
+  .navitem-container {
+    @apply px-4 rounded-xl hover:bg-blue-500 transition-all duration-150;
+  }
 
-* {
-  box-sizing: border-box;
+  .navitem {
+    @apply text-2xl font-semibold text-center text-neutral-700 hover:text-neutral-900 transition-all duration-150 group-hover:text-white;
+  }
 }
