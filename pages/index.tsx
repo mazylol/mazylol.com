@@ -11,7 +11,7 @@ export default function Index() {
         </p>
       </div>
       <Animation />
-      <div className="bg-neutral-400 min-h-screen mt-[75vh] pb-4">
+      <div className="bg-neutral-400 min-h-screen mt-[80vh] pb-4">
         <div className="pt-12">
           <p className="text-6xl font-bold text-center text-neutral-800">I do some stuff...</p>
           <div className="grid grid-cols-2 gap-4 mt-12 mx-4">
