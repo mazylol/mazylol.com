@@ -6,7 +6,7 @@ export default function Index() {
     <>
       <div className="text-center mt-8 text-neutral-700">
         <p className="text-7xl font-extrabold mb-2">Mazylol</p>
-        <p className="text-3xl font-light text-center mb-12">
+        <p className="text-3xl font-light text-center mb-32">
           An <span className="font-bold">Un</span>professional idiot who likes to code sometimes.
         </p>
       </div>
