@@ -1,5 +1,6 @@
 import Animation from '../components/Animation';
 import Image from 'next/image';
+//@ts-ignore
 import Carbonbadge from 'react-carbonbadge';
 
 export default function Index() {
