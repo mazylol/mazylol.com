@@ -1,5 +1,6 @@
 import Animation from '../components/Animation';
 import Image from 'next/image';
+import Carbonbadge from 'react-carbonbadge';
 
 export default function Index() {
   return (
@@ -32,6 +33,9 @@ export default function Index() {
               <Image src="/setup.png" alt="content" width={1280} height={800} />
             </div>
           </div>
+        </div>
+        <div className="mt-8">
+          <Carbonbadge />
         </div>
       </div>
     </>
