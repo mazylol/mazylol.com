@@ -16,11 +16,6 @@ export default function Navbar() {
         </Link>
         <Link href="/construction">
           <div className="navitem-container group">
-            <p className="navitem">Skills</p>
-          </div>
-        </Link>
-        <Link href="/construction">
-          <div className="navitem-container group">
             <p className="navitem">About</p>
           </div>
         </Link>
