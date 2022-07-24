@@ -1,11 +1,13 @@
 import Animation from '../components/Animation';
 import Image from 'next/image';
-//@ts-ignore
-import Carbonbadge from 'react-carbonbadge';
+import Head from 'next/head';
 
 export default function Index() {
   return (
     <>
+      <Head>
+        <title>Mazylol | Home</title>
+      </Head>
       <div className="text-center mt-8 text-neutral-700">
         <p className="text-7xl font-extrabold mb-2">Mazylol</p>
         <p className="text-3xl font-light text-center mb-32">
@@ -34,9 +36,6 @@ export default function Index() {
               <Image src="/setup.png" alt="content" width={1280} height={800} />
             </div>
           </div>
-        </div>
-        <div className="mt-8">
-          <Carbonbadge />
         </div>
       </div>
     </>
