@@ -1,3 +1,17 @@
+<script lang="ts">
+    function getAge(dateString: string): number {
+        let today = new Date();
+        let birthDate = new Date(dateString);
+        let age = today.getFullYear() - birthDate.getFullYear();
+        var m = today.getMonth() - birthDate.getMonth();
+        if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+            age--;
+        }
+
+        return age;
+    }
+</script>
+
 <header>
 	<h1>Mazylol</h1>
 	<aside>My website doesn't need to be flashy to be effective!</aside>
@@ -6,7 +20,7 @@
 <section>
 	<h2>Tiny Bit About Me</h2>
 	<p>
-		I am a 16 year old high student that likes to do random stuff that I think could be slightly
+		I am a <b>{getAge("2006-09-05")}</b> year old high student that likes to do random stuff that I think could be slightly
 		interesting. I write some of the worst code imaginable. Don't belive me? Check out my <a
 			href="https://github.com/mazylol">Github</a
 		>
