@@ -22,7 +22,7 @@
 	<p>
 		I am a <b>{getAge('2006-09-05')}</b> year old high student that likes to do random stuff that I
 		think could be slightly interesting. I write some of the worst code imaginable. Don't belive me?
-		Check out my <a href="https://github.com/mazylol">Github</a>
+		Check out my <a href="https://github.com/mazylol">GitHub</a>
 	</p>
 </section>
 
@@ -33,18 +33,18 @@
 		<li>APIs</li>
 		<li>Libraries</li>
 		<li>Embedded Software</li>
-		<li>*NIX Sysadmin</li>
+		<li>*NIX</li>
 	</ul>
 </section>
 
 <section>
 	<h2>Languages I Like</h2>
 	<ul>
-		<li>C</li>
+		<li>C/C++</li>
 		<li>Rust</li>
 		<li>Go</li>
-		<li>Zig</li>
 		<li>Java (sometimes)</li>
+		<li>Typescript</li>
 	</ul>
 </section>
 
@@ -54,6 +54,7 @@
 		<li>Kitty Term</li>
 		<li>NeoVim</li>
 		<li><i>software that sucks less ;)</i></li>
+		<li>Jetbrains IDEs <i>(i am a massive shill)</i></li>
 	</ul>
 </section>
 
