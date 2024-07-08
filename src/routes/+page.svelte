@@ -88,6 +88,7 @@
 <section>
 	<h2>Links</h2>
 	<ul>
+        <li><a href="https://youtube.com/@bitwhyze">YouTube</a></li>
 		<li><a href="https://github.com/mazylol">Github</a></li>
 		<li><a href="https://twitter.com/mazylol">Twitter</a></li>
 	</ul>
