@@ -14,15 +14,13 @@
 
 <header>
 	<h1>Mazylol</h1>
-	<aside>My website doesn't need to be flashy to be effective!</aside>
+	<aside><i>a terrible programmer</i></aside>
 </header>
 
 <section>
-	<h2>Tiny Bit About Me</h2>
+	<h2>What I Do <i>sometimes</i></h2>
 	<p>
-		I am a <b>{getAge('2006-09-05')}</b> year old student that likes to do random stuff that I find interesting.
-		I cursed myself with this hobby/obsession while in quarantine when I made the mistake of learning
-		Python. Now here we are.
+		I am a <b>{getAge('2006-09-05')}</b> year old student that likes to do pretty much everything. Jack of all trades, master of none. I started making discord bots with python during the pandemic and things kind of just went from there.
 	</p>
 </section>
 
@@ -34,21 +32,28 @@
 			<li><a href="https://github.com/mazylol/kodi">Kodi</a> (programming info bot) (C++)</li>
 			<li><a href="https://github.com/mazylol/fido">Fido</a> (random dog pictures) (Rust)</li>
 			<li>
-				<a href="https://github.com/mazylol/buildabot">Buildabot</a> (build a bot in completely in yaml)
+				<a href="https://github.com/mazylol/discord.yaml">discord.yaml</a> (build a bot in completely in yaml)
 				(C++)
 			</li>
 		</ul>
+        <li>Websites</li>
+        <ul>
+            <li><a href="https://mazylol.com"><i>this one</i></a></li>
+            <li><a href="https://esn.mazylol.com">ESN</a>, a website that hosts content produced by my schools sports network</li>
+        </ul>
 		<li>Libraries</li>
 		<ul>
 			<li>
 				<a href="https://github.com/mazylol/QuickLED">QuickLED</a>, a platformio library to make
-				using LEDs easier
+				using LEDs slightly easier
 			</li>
 			<li>
 				<a href="https://github.com/mazylol/ultimate-bogo">ultimate-bogo</a>, a multithreaded
 				bogosort implementation in C++ (high risk, high reward)
 			</li>
-			<li>A lot of API deserialization libraries. Usually in Go or C++</li>
+            <li>
+                <a href="https://github.com/mazylol/twelvedata-cpp">twelvedata-cpp</a>, a request handler and deserializer for <a href="https://twelvedata.com">Twelvedata</a>
+            </li>
 		</ul>
 		<li>*NIX</li>
 		<ul>
@@ -59,9 +64,11 @@
 		<li>3D Modeling/Printing</li>
 		<ul>
 			<li>
-				I designed a ketchup centrifuge to get all of the ketchup off of the walls of the bottle.
-				Spins violently via a DC motor.
+				I made a DC power source for my schools robotics team. Encased in a model of my own design. Hardware is two lead-acid batteries, dc-dc buck converter, switch, xt-60 connectors, and some hot glue
 			</li>
+            <li>
+                Got tired of cranking my coffee grinder. Made a coupling for it that attaches to a 12v motor I took from a traxxas rc car
+            </li>
 		</ul>
 	</ul>
 </section>
@@ -72,7 +79,9 @@
 		<li>C/C++</li>
 		<li>Go</li>
 		<li>Rust</li>
+        <li>Kotlin</li>
 		<li>Java <i>(sometimes)</i></li>
+        <li>JS/TS</li>
 	</ul>
 </section>
 
@@ -80,7 +89,7 @@
 	<h2>Software I Like</h2>
 	<ul>
 		<li>Neovim</li>
-		<li><i>software that sucks less ;)</i></li>
+        <li>Hyprland</li>
 		<li>Autodesk Fusion</li>
 	</ul>
 </section>
