@@ -38,7 +38,7 @@
 		</ul>
         <li>Websites</li>
         <ul>
-            <li><a href="https://mazylol.com"><i>this one</i></a></li>
+            <li><a href="https://mazylol.com"><i>this one</i></a> (<a href="https://github.com/mazylol/mazylol.com">source</a>)</li>
             <li><a href="https://esn.mazylol.com">ESN</a>, a website that hosts content produced by my schools sports network</li>
         </ul>
 		<li>Libraries</li>
@@ -87,9 +87,8 @@
 <section>
 	<h2>Software I Like</h2>
 	<ul>
-		<li>Neovim</li>
-        <li>Hyprland</li>
-		<li>Autodesk Fusion</li>
+		<li><a href="https://neovim.io">Neovim</a></li>
+        <li><a href="https://hyprland.org">Hyprland</a></li>
 	</ul>
 </section>
 
