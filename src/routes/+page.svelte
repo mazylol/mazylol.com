@@ -79,8 +79,7 @@
 		<li>C/C++</li>
 		<li>Go</li>
 		<li>Rust</li>
-        <li>Kotlin</li>
-		<li>Java <i>(sometimes)</i></li>
+        <li>Java/Kotlin</li>
         <li>JS/TS</li>
 	</ul>
 </section>
