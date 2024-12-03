@@ -31,11 +31,11 @@
 	<ul>
 		<li>Discord Bots</li>
 		<ul>
-			<li><a href="https://github.com/mazylol/kodi">Kodi</a> (programming info bot) (C++)</li>
-			<li><a href="https://github.com/mazylol/fido">Fido</a> (random dog pictures) (Rust)</li>
+			<li><a href="https://github.com/mazylol/kodi">Kodi</a>, a programming info bot (C++)</li>
+			<li><a href="https://github.com/mazylol/fido">Fido</a>, random dog picture bot (Rust)</li>
 			<li>
-				<a href="https://github.com/mazylol/discord.yaml">discord.yaml</a> (build a bot in completely
-				in yaml) (C++)
+				<a href="https://github.com/mazylol/discord.yaml">discord.yaml</a>, build a bot in completely
+				in yaml (C++)
 			</li>
 		</ul>
 		<li>Websites</li>
@@ -47,29 +47,29 @@
 			</li>
 			<li>
 				<a href="https://esn.mazylol.com">ESN</a>, a website that hosts content produced by my
-				schools sports network
+				schools sports network (Svelte)
 			</li>
 		</ul>
 		<li>Libraries</li>
 		<ul>
 			<li>
 				<a href="https://github.com/mazylol/QuickLED">QuickLED</a>, a platformio library to make
-				using LEDs slightly easier
+				using LEDs slightly easier (C++/Pio)
 			</li>
 			<li>
 				<a href="https://github.com/mazylol/ultimate-bogo">ultimate-bogo</a>, a multithreaded
-				bogosort implementation in C++ (high risk, high reward)
+				bogosort implementation (C++)
 			</li>
 			<li>
 				<a href="https://github.com/mazylol/twelvedata-cpp">twelvedata-cpp</a>, a request handler
-				and deserializer for <a href="https://twelvedata.com">Twelvedata</a>
+				and deserializer for <a href="https://twelvedata.com">Twelvedata</a> (C++)
 			</li>
 		</ul>
 		<li>*NIX</li>
 		<ul>
-			<li><a href="https://github.com/mazylol/dwm">dwm</a> config</li>
-			<li><a href="https://github.com/mazylol/dmenu">dmenu</a> config</li>
-			<li><a href="https://github.com/mazylol/slstatus">slstatus</a> config</li>
+			<li><a href="https://github.com/mazylol/dwm">dwm</a> config (C)</li>
+			<li><a href="https://github.com/mazylol/dmenu">dmenu</a> config (C)</li>
+			<li><a href="https://github.com/mazylol/slstatus">slstatus</a> config (C)</li>
 		</ul>
 		<li>3D Modeling/Printing</li>
 		<ul>
@@ -80,7 +80,7 @@
 			</li>
 			<li>
 				Got tired of cranking my coffee grinder. Made a coupling for it that attaches to a 12v motor
-				I took from a traxxas rc car
+				I took from an rc car
 			</li>
 		</ul>
 	</ul>
