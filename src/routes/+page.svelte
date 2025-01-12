@@ -13,8 +13,13 @@
 </script>
 
 <header>
-	<h1>Mazylol</h1>
-	<aside><i>a terrible programmer</i></aside>
+	<ul class="links text container">
+		<li><h1>Mazylol</h1></li>
+		<li><a href="https://youtube.com/@bitwhyze" class="youtube">YouTube</a></li>
+		<li><a href="https://twitter.com/mazylol" class="twitter">Twitter</a></li>
+		<li><a href="https://github.com/mazylol" class="github">Github</a></li>
+	</ul>
+	<aside>My website doesn't need to be flashy to be effective!</aside>
 </header>
 
 <section>
@@ -34,8 +39,8 @@
 			<li><a href="https://github.com/mazylol/kodi">Kodi</a>, a programming info bot (C++)</li>
 			<li><a href="https://github.com/mazylol/fido">Fido</a>, random dog picture bot (Rust)</li>
 			<li>
-				<a href="https://github.com/mazylol/discord.yaml">discord.yaml</a>, build a bot in completely
-				in yaml (C++)
+				<a href="https://github.com/mazylol/discord.yaml">discord.yaml</a>, build a bot in
+				completely in yaml (C++)
 			</li>
 		</ul>
 		<li>Websites</li>
@@ -102,15 +107,6 @@
 	<ul>
 		<li><a href="https://neovim.io">Neovim</a></li>
 		<li><a href="https://hyprland.org">Hyprland</a></li>
-	</ul>
-</section>
-
-<section>
-	<h2>Links</h2>
-	<ul>
-		<li><a href="https://youtube.com/@bitwhyze">YouTube</a></li>
-		<li><a href="https://github.com/mazylol">Github</a></li>
-		<li><a href="https://twitter.com/mazylol">Twitter</a></li>
 	</ul>
 </section>
 

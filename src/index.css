@@ -32,3 +32,34 @@ a {
 a:hover {
 	border-bottom: 0;
 }
+
+.links {
+	display: flex;
+	justify-content: flex-start;
+	column-gap: 10px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.container {
+	width: 100%;
+}
+
+.text {
+	font-size: calc(0.5vw + 1vh);
+}
+
+a.youtube:hover {
+	color: #ff0033;
+}
+
+a.github:hover {
+	color: #212830;
+}
+
+a.twitter:hover {
+	color: #1d9bf0;
+}
