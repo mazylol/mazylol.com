@@ -72,9 +72,9 @@
 		</ul>
 		<li>*NIX</li>
 		<ul>
-			<li><a href="https://github.com/mazylol/dwm">dwm</a> config (C)</li>
-			<li><a href="https://github.com/mazylol/dmenu">dmenu</a> config (C)</li>
-			<li><a href="https://github.com/mazylol/slstatus">slstatus</a> config (C)</li>
+			<li><a href="https://gentoo.org">Gentoo</a> (<a href="/desktop.png">my desktop</a>)</li>
+			<li><a href="https://hyprland.org">Hyprland</a></li>
+			<li><a href="https://github.com/Alexays/Waybar">Waybar</a></li>
 		</ul>
 		<li>3D Modeling/Printing</li>
 		<ul>
