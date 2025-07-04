@@ -1,15 +1,5 @@
 <script lang="ts">
-	function getAge(dateString: string): number {
-		let today = new Date();
-		let birthDate = new Date(dateString);
-		let age = today.getFullYear() - birthDate.getFullYear();
-		var m = today.getMonth() - birthDate.getMonth();
-		if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
-			age--;
-		}
-
-		return age;
-	}
+    export let data;
 </script>
 
 <header>
@@ -23,9 +13,9 @@
 </header>
 
 <section>
-	<h2>What I Do <i>sometimes</i></h2>
+	<h2>About Me</h2>
 	<p>
-		I am a <b>{getAge('2006-09-05')}</b> year old student that likes to do pretty much everything. Jack
+		I am a <b>{data.age}</b> year old student <b>@ Rose-Hulman</b> that likes to do pretty much everything. Jack
 		of all trades, master of none. I started making discord bots with python during the pandemic and
 		things kind of just went from there.
 	</p>
@@ -40,7 +30,7 @@
 			<li><a href="https://github.com/mazylol/fido">Fido</a>, random dog picture bot (Rust)</li>
 			<li>
 				<a href="https://github.com/mazylol/discord.yaml">discord.yaml</a>, build a bot in
-				completely in yaml (C++)
+				completely in yaml (Rust)
 			</li>
 		</ul>
 		<li>Websites</li>
