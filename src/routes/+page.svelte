@@ -15,7 +15,7 @@
 <section>
 	<h2>About Me</h2>
 	<p>
-		I am a <b>{data.age}</b> year old student <b>@ Rose-Hulman</b> that likes to do pretty much everything. Jack
+		I am a <b>{data.age}</b> year old student <b><a href="https://www.rose-hulman.edu" target="_blank">@ Rose-Hulman</a></b> that likes to do pretty much everything. Jack
 		of all trades, master of none. I started making discord bots with python during the pandemic and
 		things kind of just went from there.
 	</p>
@@ -62,7 +62,7 @@
 		</ul>
 		<li>*NIX</li>
 		<ul>
-			<li><a href="https://gentoo.org">Gentoo</a> (<a href="/desktop.png">my desktop</a>)</li>
+			<li><a href="https://archlinux.org">Arch</a> (<a href="/desktop.png">my desktop</a>)</li>
 			<li><a href="https://hyprland.org">Hyprland</a></li>
 			<li><a href="https://github.com/Alexays/Waybar">Waybar</a></li>
 		</ul>
